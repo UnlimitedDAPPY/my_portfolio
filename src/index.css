@@ -1,0 +1,133 @@
+@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+
+
+ :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --accent: #38bdf8;
+} 
+
+/* index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevents horizontal scroll */
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply bg-gray-900 text-white;
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100%;
+}
+
+@layer components {
+ .card {
+    @apply p-6 rounded-lg bg-gray-700 text-white cursor-default transition-all duration-300 transform;
+  }
+
+  .services-card {
+    @apply border-l-[3px] border-[var(--accent)]
+           hover:border-r-[3px] hover:-translate-y-[15px] hover:scale-110;
+}
+
+}
+
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 2px);
+  max-width: 500px;
+  border: 1px solid gray;
+  margin: auto;
+}  */
+
+
+
+
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */
+/* 
+  button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}  
+
+ /* .checking:hover  {
+    transform: translateY(-15px);
+    cursor: default;
+    border-right: 3px solid var(--accent) transition-all duration-300 ;
+    
+} */
+
+/* .card {
+    background: #1F4E79;
+    border-left: 3px solid var(--accent);
+} */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+
+/* .nav {
+  background: #38bdf8;
+} */
+
+
+
+
+
+
+
