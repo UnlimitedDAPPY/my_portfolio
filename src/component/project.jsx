@@ -28,9 +28,9 @@ const Project = ({ aosDelay }) => {
       title: "Africa Agility",
       role: "Product Manager || QA Engineer",
       description:
-        "Key Achievement \nAs QA Engineer Conducted comprehensive manual and API testing. Identified 15+ critical bugs pre-launch, reducing post-launch issues by 30% Led regression testing cycles, improving release stability Collaborated with developers to implement fixes, achieving 98% test pass rate As Product Manager Led roadmap for AI features, increasing user retention by 40% Optimized onboarding flow, reducing drop-offs by 35% Shipped 5 major releases 2 weeks ahead of schedule",
-      buttonText: "Learn More",
-      buttonLink: "africaagility.org",
+        "comprehensive manual and API testing. Identified 15+ critical bugs pre-launch, reducing post-launch issues by 30% Led regression testing cycles, improving release stability Collaborated with developers to implement fixes, achieving 98% test pass rate ",
+      // buttonText: "Learn More",
+      // buttonLink: "africaagility.org",
     },
     {
       image: Blinkers,
@@ -44,8 +44,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Design with elegance and ensure your UI looks stunning on all devices.",
-      buttonText: "Learn More",
-      buttonLink: "blinkers.org",
+      // buttonText: "Learn More",
+      // buttonLink: "blinkers.org",
     },
 
     {
@@ -55,8 +55,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Deliver seamless experiences across all screen sizes and devices.",
-      buttonText: "Learn More",
-      buttonLink: "buyletlive.com",
+      // buttonText: "Learn More",
+      // buttonLink: "buyletlive.com",
     },
     {
       image: CNC,
@@ -65,8 +65,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "cakesandcream.com",
+      // buttonText: "Learn More",
+      // buttonLink: "cakesandcream.com",
     },
     {
       image: Kili,
@@ -74,9 +74,9 @@ const Project = ({ aosDelay }) => {
       title: "Kilimanjaro",
       role: "Product Manager || QA Engineer",
       description:
-        "Key Achievement As QA Engineer Conducted comprehensive manual and API testing.\n- Identified 15+ critical bugs pre-launch, reducing post-launch issues by 30%\n- Led regression testing cycles, improving release stability\n- Collaborated with developers to implement fixes, achieving 98% test pass rate\n\nAs Product Manager\n- Led roadmap for AI features, increasing user retention by 40%\n- Optimized onboarding flow, reducing drop-offs by 35%\n- Shipped 5 major releases 2 weeks ahead of schedule",
-      buttonText: "Learn More",
-      buttonLink: "kilimanjarorestuarants.com",
+        "Identified 15+ critical bugs pre-launch, reducing post-launch issues by 30%\n- Led regression testing cycles, improving release stability\n- Collaborated with developers to implement fixes, achieving 98% test pass rate",
+      // buttonText: "Learn More",
+      // buttonLink: "kilimanjarorestuarants.com",
     },
     {
       image: Laspark,
@@ -85,8 +85,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "laspark.com",
+      // buttonText: "Learn More",
+      // buttonLink: "laspark.com",
     },
     {
       image: StanbicMobile,
@@ -95,8 +95,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "stanbic.com",
+      // buttonText: "Learn More",
+      // buttonLink: "stanbic.com",
     },
     {
       image: StanbicWeb,
@@ -105,8 +105,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "stanbic.org",
+      // buttonText: "Learn More",
+      // buttonLink: "stanbic.org",
     },
     {
       image: StartUpLagos,
@@ -115,8 +115,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "startuplagos.com",
+      // buttonText: "Learn More",
+      // buttonLink: "startuplagos.com",
     },
     {
       image: TuneGrill,
@@ -125,8 +125,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "tunegrill.com",
+      // buttonText: "Learn More",
+      // buttonLink: "tunegrill.com",
     },
     {
       image: Waheb,
@@ -135,8 +135,8 @@ const Project = ({ aosDelay }) => {
       role: "Product Manager || QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "waheb.com",
+      // buttonText: "Learn More",
+      // buttonLink: "waheb.com",
     },
     {
       image: Wazima,
@@ -145,8 +145,8 @@ const Project = ({ aosDelay }) => {
       role: "QA Engineer",
       description:
         "Build applications that can serve users from anywhere in the world.",
-      buttonText: "Learn More",
-      buttonLink: "wazima.com",
+      // buttonText: "Learn More",
+      // buttonLink: "wazima.com",
     },
   ];
 

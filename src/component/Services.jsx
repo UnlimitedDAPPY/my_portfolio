@@ -42,18 +42,3 @@ const Services = () => {
 }
 
 export default Services;
-
-// className=" text-white cursor-default
-//                 border-l-[3px] border-[var(--accent)]
-//                 hover:border-r-[3px]
-//                 hover:-translate-y-[15px]
-//                 group-hover:scale-110"
-      
-
-
-  // "bg-[#2E7D32] border-l-[3px] border-green-400 hover:border-r-[3px] hover:translate-y-[-15px] cursor-default transition-all duration-300 text-white",
-  // "bg-[#6A1B9A] border-l-[3px] border-purple-400 hover:border-r-[3px] hover:translate-y-[-15px] cursor-default transition-all duration-300 text-white"
-
- //   const cardStyles = [
-//   "bg-[#1F4E79] border-l-[3px] border-[var(--accent)] hover:border-r-[3px] hover:translate-y-[-15px] cursor-default transition-all duration-300 text-white",
-// ];

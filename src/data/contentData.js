@@ -19,6 +19,12 @@ export const CardsSection = [
       "I bridge the gap between business goals and technical execution by driving product success and leading the cross-functional team responsible for continuous improvement.",
     aosDelay: "600",
   },
+  {
+    title: "Data Analysis",
+    content:
+      "I analyze data to extract insights and drive informed decision-making. My work helps businesses understand their performance, identify opportunities, and optimize their strategies.",
+    aosDelay: "900",
+  },
 ];
 
 

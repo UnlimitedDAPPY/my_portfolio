@@ -25,38 +25,21 @@
 }
 
 
-.typewriter {
-  display: inline-block;           /* isolate animation to the span */
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid currentColor;
-  width: 0;                        /* start hidden */
 
-  /* type once, then blink caret a few times */
-  animation:
-     typing 4s steps(48, end) 1 forwards, /* type once */
-             blink-caret 0.75s step-end infinite;
-             animation-delay: 0.8s, 0s;
-}
-
-@keyframes typing {
-  from { width: 0; }
-  to   { width: 48ch }
-}
 
 @keyframes blink-caret {
   0%, 100% { border-color: transparent; }
   50%      { border-color: currentColor; }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .typewriter {
-    animation: none;       /* remove typing + blinking */
-    border-right: none;    /* remove caret */
-    width: auto;           /* let text size naturally */
-    white-space: normal;   /* allow wrapping if needed */
+    animation: none;       /* remove typing + blinking 
+    border-right: none;    /* remove caret 
+    width: auto;           /* let text size naturally 
+    white-space: normal;   /* allow wrapping if needed *
   }
-}
+} */
 
 .under{
   position: relative;

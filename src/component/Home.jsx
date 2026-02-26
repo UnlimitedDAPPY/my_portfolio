@@ -4,6 +4,7 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import '../style.css';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
 
@@ -24,15 +25,20 @@ const Home = () => {
        <h1 className='text-3xl md:text-7xl font-bold mb-6'>
         Hi I'm Oladapo Olawunmi Asubiojo
         </h1>
-      <p className='py-4 text-3xl mb-4 '
-      data-aos="fade-down" 
-      data-aos-duration="2000"
-      data-aos-delay="500" 
-      data-aos-easing="ease-out-cubic">
-        <span className='typewriter'>
-        Frontend Developer | QA Engineer | Product Manager | Data Analysis
-        </span>
-        </p>
+      
+
+
+
+<p className="text-2xl sm:text-3xl md:text-4xl my-6 text-center">
+  <TypeAnimation
+    sequence={[
+      'Frontend Developer | QA Engineer | Product Manager | Data Analysis',
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={0}
+  />
+</p>
 
       
       
@@ -49,13 +55,13 @@ const Home = () => {
             <a href="https://facebook.com/oladapo olawunmi asubiojo" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
               <FaFacebook />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-sky-500">
+          <a href="https://x.com/olawunmi_34506" target="_blank" rel="noopener noreferrer" className="hover:text-sky-500">
               <FaTwitter />
           </a>
            <a href="https://linkedin.com/in/oladapo-asubiojo-745873164/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700">
               <FaLinkedin />
           </a>
-           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
+           <a href="https://instagram.com/oladapo_whomi" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500">
               <FaInstagram />
           </a>
         </div>
