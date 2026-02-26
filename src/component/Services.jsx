@@ -22,7 +22,7 @@ const Services = () => {
           Driving product vision from concept to market success, building quality into every stage of development and creating engaging, high-performance user interfaces.
         </p>
      </div>
-     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'
+     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6'
      >
       {CardsSection.map((card, index) => (
         <Card 
